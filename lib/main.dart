@@ -12,6 +12,8 @@ void main() {
             elevation: 3,
             leading: Text("ok"),
             centerTitle: true),
+        backgroundColor: Colors.amber,
+        drawerEnableOpenDragGesture: true,
         body: Center(
           child: Text(
             "hello world",
